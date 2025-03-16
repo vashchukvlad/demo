@@ -8,6 +8,6 @@ function dd($value) {
     die();
 }
 
-function isUrl($url) {
-    return $_SERVER['REQUEST_URI'] === $url;
+function isUri($uri) {
+    return $_SERVER['REQUEST_URI'] === $uri;
 }
